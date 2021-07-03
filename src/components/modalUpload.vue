@@ -1,17 +1,19 @@
 <template lang="pug">
 
-Main
+.modal
+  .modal-content
+    | Paste or upload
 
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import Main from './pages/Main.vue'
 
 export default defineComponent({
-  name: 'App',
-  components: {
-    Main
-  }
+  name: 'modalUpload'
 })
 </script>
+
+<style scoped lang="sass">
+.modal
+</style>
